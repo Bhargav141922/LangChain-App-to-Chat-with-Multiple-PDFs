@@ -55,6 +55,6 @@ To use the MultiPDF Chat App, follow these steps:
 
 ## Snapshots of the Application:
 -------------------------------
-(/sc1.png)
-(/sc2.png)
+![Screenshot 1](/sc1.png)
+![Screenshot 2](/sc2.png)
 
