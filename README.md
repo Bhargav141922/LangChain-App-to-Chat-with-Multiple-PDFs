@@ -9,14 +9,10 @@ The MultiPDF Chat App is a Python-based application designed to enable chatting 
 
 ![MultiPDF Chat App Diagram](/PDF-LangChain.jpg)
 
-The application follows these steps to provide responses to your questions:
+The application operates through the following steps to deliver answers to your inquiries:
 
-1. PDF Loading: The app reads multiple PDF documents and extracts their text content.
-
-2. Text Chunking: The extracted text is divided into smaller chunks that can be processed effectively.
-
-3. Language Model: The application utilizes a language model to generate vector representations (embeddings) of the text chunks.
-
-4. Similarity Matching: When you ask a question, the app compares it with the text chunks and identifies the most semantically similar ones.
-
-5. Response Generation: The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs.
+1. PDF Loading: The app loads multiple PDF documents and extracts the textual content from them.
+2. Text Chunking: The text obtained from the PDFs is segmented into smaller, manageable pieces.
+3. Language Model: The app employs a language model to create vector representations (embeddings) of these text segments.
+4. Similarity Matching: Upon receiving a question, the application compares it against these text segments to find the ones that are most semantically related.
+5. Response Generation: The chosen segments are then processed by the language model, which crafts a response drawing from the pertinent sections of the PDFs.
